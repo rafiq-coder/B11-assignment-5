@@ -50,7 +50,6 @@ okButton.addEventListener('click', function () {
     const now = new Date();
     const timeString = now.toLocaleTimeString();
     const logEntry = `You have completed ${taskDescription} at ${timeString}\n`;
-
     textBox.textContent += logEntry;
 });
 
