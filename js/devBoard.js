@@ -37,6 +37,8 @@ for (let i = 0; i < btnCompleted.length; i++) {
         taskNumber--;
         totalCompleted++;
 
+        
+
         taskAssignedNumber.textContent = taskNumber;
         totalCompletedNumber.textContent = totalCompleted;
 
