@@ -8,6 +8,7 @@ const mainSection = document.querySelector('main > section:first-child');
 const backToDeskButton = document.querySelector('header .btn');
 const headerRight = document.querySelector('header > div:nth-child(2)');
 
+
 function showCompletedModal() {
     completedModal.classList.remove('hidden');
 }
@@ -70,3 +71,9 @@ backToDeskButton.addEventListener('click', function () {
     backToDeskButton.parentElement.classList.add('hidden');
     headerRight.classList.remove('hidden');
 });
+
+document.getElementById('color-btn').addEventListener('click', function makeGreen(){
+    const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+            document.body.style.backgroundColor = randomColor;
+    
+})

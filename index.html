@@ -11,7 +11,7 @@
 </head>
 </head>
 
-<body>
+<body id="body">
     <!-- modal -->
 
     <div id="completed-modal" class="fixed top-0 left-0 right-0 flex items-center z-50 justify-center hidden">
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <header class="flex justify-between p-8">
+    <header class="flex justify-between p-8 bg-white rounded-lg mb-6 mt-4">
         <div class="flex gap-2">
             <img src="assets/logo.png" alt="" class="h-11 w-11">
             <h1 class="text-xl mt-2">Dev<span class="font-bold">Board</span></h1>
@@ -33,7 +33,7 @@
                 <img src="assets/checkbox.png" alt="" class="w-8 h-8">
                 <h1 class="text-3xl total-completed">23</h1>
             </div>
-            <img src="assets/theme-btn.png" alt="" class="h-9 w-9">
+            <button id="color-btn"><img src="assets/theme-btn.png" alt="" class="h-9 w-9"></button>
         </div>
         <div class="hidden">
             <button class="btn bg-blue-700 text-white">
